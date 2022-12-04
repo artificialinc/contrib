@@ -17,7 +17,7 @@ package schemast
 import (
 	"testing"
 
-	"entgo.io/contrib/entproto"
+	"github.com/artificialinc/contrib/entproto"
 	"entgo.io/ent"
 	"entgo.io/ent/schema"
 	"entgo.io/ent/schema/edge"

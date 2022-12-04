@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/pony"
+	"github.com/artificialinc/contrib/entproto/internal/todo/ent/pony"
 	"entgo.io/ent/dialect/sql"
 )
 

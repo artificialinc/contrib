@@ -7,8 +7,8 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/pony"
-	"entgo.io/contrib/entproto/internal/todo/ent/predicate"
+	"github.com/artificialinc/contrib/entproto/internal/todo/ent/pony"
+	"github.com/artificialinc/contrib/entproto/internal/todo/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"

@@ -6,8 +6,8 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/image"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/nobackref"
+	"github.com/artificialinc/contrib/entproto/internal/entprototest/ent/image"
+	"github.com/artificialinc/contrib/entproto/internal/entprototest/ent/nobackref"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"

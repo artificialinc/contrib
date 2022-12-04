@@ -15,7 +15,7 @@
 package todo
 
 import (
-	"entgo.io/contrib/entgql/internal/todo/ent"
+	"github.com/artificialinc/contrib/entgql/internal/todo/ent"
 	"github.com/99designs/gqlgen/graphql"
 )
 

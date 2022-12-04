@@ -19,7 +19,7 @@ import (
 	"entgo.io/ent/schema/edge"
 	"entgo.io/ent/schema/field"
 
-	"entgo.io/contrib/entoas"
+	"github.com/artificialinc/contrib/entoas"
 )
 
 // Category holds the schema definition for the Category entity.

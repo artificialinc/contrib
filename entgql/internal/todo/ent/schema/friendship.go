@@ -17,7 +17,7 @@ package schema
 import (
 	"time"
 
-	"entgo.io/contrib/entgql"
+	"github.com/artificialinc/contrib/entgql"
 	"entgo.io/ent"
 	"entgo.io/ent/schema"
 	"entgo.io/ent/schema/edge"

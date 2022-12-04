@@ -20,8 +20,8 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/predicate"
-	"entgo.io/contrib/entgql/internal/todo/ent/user"
+	"github.com/artificialinc/contrib/entgql/internal/todo/ent/predicate"
+	"github.com/artificialinc/contrib/entgql/internal/todo/ent/user"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"

@@ -21,9 +21,9 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entgql/internal/todopulid/ent/group"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/schema/pulid"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/user"
+	"github.com/artificialinc/contrib/entgql/internal/todopulid/ent/group"
+	"github.com/artificialinc/contrib/entgql/internal/todopulid/ent/schema/pulid"
+	"github.com/artificialinc/contrib/entgql/internal/todopulid/ent/user"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 )

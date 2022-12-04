@@ -17,7 +17,7 @@
 package verysecret
 
 import (
-	"entgo.io/contrib/entgql/internal/todouuid/ent/predicate"
+	"github.com/artificialinc/contrib/entgql/internal/todouuid/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 	"github.com/google/uuid"
 )

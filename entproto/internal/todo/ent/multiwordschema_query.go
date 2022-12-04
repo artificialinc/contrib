@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"math"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/multiwordschema"
-	"entgo.io/contrib/entproto/internal/todo/ent/predicate"
+	"github.com/artificialinc/contrib/entproto/internal/todo/ent/multiwordschema"
+	"github.com/artificialinc/contrib/entproto/internal/todo/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"

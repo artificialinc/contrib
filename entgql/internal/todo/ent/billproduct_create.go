@@ -21,7 +21,7 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/billproduct"
+	"github.com/artificialinc/contrib/entgql/internal/todo/ent/billproduct"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 )

@@ -21,7 +21,7 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entgql/internal/todogotype/ent/verysecret"
+	"github.com/artificialinc/contrib/entgql/internal/todogotype/ent/verysecret"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 )

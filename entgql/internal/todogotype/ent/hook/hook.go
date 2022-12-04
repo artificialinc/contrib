@@ -20,7 +20,7 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entgql/internal/todogotype/ent"
+	"github.com/artificialinc/contrib/entgql/internal/todogotype/ent"
 )
 
 // The BillProductFunc type is an adapter to allow the use of ordinary

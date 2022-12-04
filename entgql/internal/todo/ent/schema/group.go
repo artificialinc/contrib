@@ -15,8 +15,8 @@
 package schema
 
 import (
-	"entgo.io/contrib/entgql"
-	"entgo.io/contrib/entgql/internal/todo/ent/schema/annotation"
+	"github.com/artificialinc/contrib/entgql"
+	"github.com/artificialinc/contrib/entgql/internal/todo/ent/schema/annotation"
 	"entgo.io/ent"
 	"entgo.io/ent/schema"
 	"entgo.io/ent/schema/edge"

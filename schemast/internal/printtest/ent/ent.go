@@ -7,8 +7,8 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/schemast/internal/printtest/ent/message"
-	"entgo.io/contrib/schemast/internal/printtest/ent/user"
+	"github.com/artificialinc/contrib/schemast/internal/printtest/ent/message"
+	"github.com/artificialinc/contrib/schemast/internal/printtest/ent/user"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"

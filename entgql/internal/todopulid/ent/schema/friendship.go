@@ -17,7 +17,7 @@ package schema
 import (
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todopulid/ent/schema/pulid"
+	"github.com/artificialinc/contrib/entgql/internal/todopulid/ent/schema/pulid"
 	"entgo.io/ent"
 	"entgo.io/ent/schema/edge"
 	"entgo.io/ent/schema/field"

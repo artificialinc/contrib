@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"log"
 
-	"entgo.io/contrib/entoas/internal/simple/migrate"
+	"github.com/artificialinc/contrib/entoas/internal/simple/migrate"
 
-	"entgo.io/contrib/entoas/internal/simple/category"
-	"entgo.io/contrib/entoas/internal/simple/pet"
-	"entgo.io/contrib/entoas/internal/simple/user"
+	"github.com/artificialinc/contrib/entoas/internal/simple/category"
+	"github.com/artificialinc/contrib/entoas/internal/simple/pet"
+	"github.com/artificialinc/contrib/entoas/internal/simple/user"
 
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"

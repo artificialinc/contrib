@@ -12,13 +12,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/schema/customstruct"
-	"entgo.io/contrib/entgql/internal/todo/ent/schema/durationgql"
-	"entgo.io/contrib/entgql/internal/todo/ent/schema/schematype"
-	"entgo.io/contrib/entgql/internal/todo/ent/todo"
-	"entgo.io/contrib/entgql/internal/todogotype/ent"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/category"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/schema/bigintgql"
+	"github.com/artificialinc/contrib/entgql/internal/todo/ent/schema/customstruct"
+	"github.com/artificialinc/contrib/entgql/internal/todo/ent/schema/durationgql"
+	"github.com/artificialinc/contrib/entgql/internal/todo/ent/schema/schematype"
+	"github.com/artificialinc/contrib/entgql/internal/todo/ent/todo"
+	"github.com/artificialinc/contrib/entgql/internal/todogotype/ent"
+	"github.com/artificialinc/contrib/entgql/internal/todogotype/ent/category"
+	"github.com/artificialinc/contrib/entgql/internal/todogotype/ent/schema/bigintgql"
 	"github.com/99designs/gqlgen/graphql"
 	"github.com/99designs/gqlgen/graphql/introspection"
 	gqlparser "github.com/vektah/gqlparser/v2"
@@ -1035,7 +1035,7 @@ enum CategoryOrderField {
   DURATION
 }
 """CategoryStatus is enum for the field status"""
-enum CategoryStatus @goModel(model: "entgo.io/contrib/entgql/internal/todo/ent/category.Status") {
+enum CategoryStatus @goModel(model: "github.com/artificialinc/contrib/entgql/internal/todo/ent/category.Status") {
   ENABLED
   DISABLED
 }
@@ -1282,7 +1282,7 @@ scalar Map
 An object with an ID.
 Follows the [Relay Global Object Identification Specification](https://relay.dev/graphql/objectidentification.htm)
 """
-interface Node @goModel(model: "entgo.io/contrib/entgql/internal/todo/ent.Noder") {
+interface Node @goModel(model: "github.com/artificialinc/contrib/entgql/internal/todo/ent.Noder") {
   """The id of the object."""
   id: ID!
 }
@@ -1439,7 +1439,7 @@ enum TodoOrderField {
   TEXT
 }
 """TodoStatus is enum for the field status"""
-enum TodoStatus @goModel(model: "entgo.io/contrib/entgql/internal/todo/ent/todo.Status") {
+enum TodoStatus @goModel(model: "github.com/artificialinc/contrib/entgql/internal/todo/ent/todo.Status") {
   IN_PROGRESS
   COMPLETED
 }

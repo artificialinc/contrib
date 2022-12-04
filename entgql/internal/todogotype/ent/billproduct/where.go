@@ -17,7 +17,7 @@
 package billproduct
 
 import (
-	"entgo.io/contrib/entgql/internal/todogotype/ent/predicate"
+	"github.com/artificialinc/contrib/entgql/internal/todogotype/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 )
 

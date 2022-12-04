@@ -17,7 +17,7 @@ package entoas
 import (
 	"testing"
 
-	"entgo.io/contrib/entoas/serialization"
+	"github.com/artificialinc/contrib/entoas/serialization"
 	"entgo.io/ent/entc/gen"
 	"github.com/ogen-go/ogen"
 	"github.com/stretchr/testify/require"

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entgql/internal/todogotype/ent/group"
+	"github.com/artificialinc/contrib/entgql/internal/todogotype/ent/group"
 	"entgo.io/ent/dialect/sql"
 )
 

@@ -23,7 +23,7 @@ import (
 	"strings"
 	"text/template"
 
-	"entgo.io/contrib/entproto"
+	"github.com/artificialinc/contrib/entproto"
 	"entgo.io/ent/entc"
 	"entgo.io/ent/entc/gen"
 	"google.golang.org/protobuf/compiler/protogen"

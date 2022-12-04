@@ -21,8 +21,8 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entgql/internal/todogotype/ent/billproduct"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/predicate"
+	"github.com/artificialinc/contrib/entgql/internal/todogotype/ent/billproduct"
+	"github.com/artificialinc/contrib/entgql/internal/todogotype/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"

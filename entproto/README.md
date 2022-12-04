@@ -32,7 +32,7 @@ import (
 	"entgo.io/ent"
 	"entgo.io/ent/schema"
 	"entgo.io/ent/schema/field"
-	"entgo.io/contrib/entproto"
+	"github.com/artificialinc/contrib/entproto"
 )
 
 type User struct {
@@ -68,7 +68,7 @@ syntax = "proto3";
 
 package entpb;
 
-option go_package = "entgo.io/contrib/entproto/internal/todo/ent/proto/entpb";
+option go_package = "github.com/artificialinc/contrib/entproto/internal/todo/ent/proto/entpb";
 
 message User {
   int32 id = 1;
@@ -137,7 +137,7 @@ package main
 import (
 	"log"
 
-	"entgo.io/contrib/entproto"
+	"github.com/artificialinc/contrib/entproto"
 	"entgo.io/ent/entc"
 	"entgo.io/ent/entc/gen"
 )

@@ -3,7 +3,7 @@
 package category
 
 import (
-	"entgo.io/contrib/entoas/internal/pets/predicate"
+	"github.com/artificialinc/contrib/entoas/internal/pets/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 )

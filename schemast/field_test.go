@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"entgo.io/contrib/entproto"
+	"github.com/artificialinc/contrib/entproto"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/schema/field"

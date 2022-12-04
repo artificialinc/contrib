@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entoas/internal/cycle"
+	"github.com/artificialinc/contrib/entoas/internal/cycle"
 )
 
 // The UserFunc type is an adapter to allow the use of ordinary

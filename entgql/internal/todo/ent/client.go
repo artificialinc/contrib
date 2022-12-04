@@ -22,15 +22,15 @@ import (
 	"fmt"
 	"log"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/migrate"
+	"github.com/artificialinc/contrib/entgql/internal/todo/ent/migrate"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/billproduct"
-	"entgo.io/contrib/entgql/internal/todo/ent/category"
-	"entgo.io/contrib/entgql/internal/todo/ent/friendship"
-	"entgo.io/contrib/entgql/internal/todo/ent/group"
-	"entgo.io/contrib/entgql/internal/todo/ent/todo"
-	"entgo.io/contrib/entgql/internal/todo/ent/user"
-	"entgo.io/contrib/entgql/internal/todo/ent/verysecret"
+	"github.com/artificialinc/contrib/entgql/internal/todo/ent/billproduct"
+	"github.com/artificialinc/contrib/entgql/internal/todo/ent/category"
+	"github.com/artificialinc/contrib/entgql/internal/todo/ent/friendship"
+	"github.com/artificialinc/contrib/entgql/internal/todo/ent/group"
+	"github.com/artificialinc/contrib/entgql/internal/todo/ent/todo"
+	"github.com/artificialinc/contrib/entgql/internal/todo/ent/user"
+	"github.com/artificialinc/contrib/entgql/internal/todo/ent/verysecret"
 
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"

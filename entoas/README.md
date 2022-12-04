@@ -29,7 +29,7 @@ import (
 
 	"entgo.io/ent/entc"
 	"entgo.io/ent/entc/gen"
-	"entgo.io/contrib/entoas"
+	"github.com/artificialinc/contrib/entoas"
 )
 
 func main() {

@@ -17,7 +17,7 @@
 package user
 
 import (
-	"entgo.io/contrib/entgql/internal/todopulid/ent/schema/pulid"
+	"github.com/artificialinc/contrib/entgql/internal/todopulid/ent/schema/pulid"
 )
 
 const (

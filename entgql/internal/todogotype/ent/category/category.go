@@ -21,7 +21,7 @@ import (
 	"io"
 	"strconv"
 
-	"entgo.io/contrib/entgql/internal/todogotype/ent/schema/bigintgql"
+	"github.com/artificialinc/contrib/entgql/internal/todogotype/ent/schema/bigintgql"
 )
 
 const (

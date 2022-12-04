@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"entgo.io/contrib/entproto"
+	"github.com/artificialinc/contrib/entproto"
 	"entgo.io/ent/entc"
 	"entgo.io/ent/entc/gen"
 	"github.com/stretchr/testify/require"

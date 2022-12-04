@@ -102,7 +102,7 @@ enum CategoryOrderField {
   DURATION
 }
 """CategoryStatus is enum for the field status"""
-enum CategoryStatus @goModel(model: "entgo.io/contrib/entgql/internal/todo/ent/category.Status") {
+enum CategoryStatus @goModel(model: "github.com/artificialinc/contrib/entgql/internal/todo/ent/category.Status") {
   ENABLED
   DISABLED
 }
@@ -349,7 +349,7 @@ scalar Map
 An object with an ID.
 Follows the [Relay Global Object Identification Specification](https://relay.dev/graphql/objectidentification.htm)
 """
-interface Node @goModel(model: "entgo.io/contrib/entgql/internal/todo/ent.Noder") {
+interface Node @goModel(model: "github.com/artificialinc/contrib/entgql/internal/todo/ent.Noder") {
   """The id of the object."""
   id: ID!
 }
@@ -506,7 +506,7 @@ enum TodoOrderField {
   TEXT
 }
 """TodoStatus is enum for the field status"""
-enum TodoStatus @goModel(model: "entgo.io/contrib/entgql/internal/todo/ent/todo.Status") {
+enum TodoStatus @goModel(model: "github.com/artificialinc/contrib/entgql/internal/todo/ent/todo.Status") {
   IN_PROGRESS
   COMPLETED
 }

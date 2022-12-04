@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/dependsonskipped"
+	"github.com/artificialinc/contrib/entproto/internal/entprototest/ent/dependsonskipped"
 	"entgo.io/ent/dialect/sql"
 )
 

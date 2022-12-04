@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"math"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/predicate"
-	"entgo.io/contrib/entproto/internal/todo/ent/todo"
-	"entgo.io/contrib/entproto/internal/todo/ent/user"
+	"github.com/artificialinc/contrib/entproto/internal/todo/ent/predicate"
+	"github.com/artificialinc/contrib/entproto/internal/todo/ent/todo"
+	"github.com/artificialinc/contrib/entproto/internal/todo/ent/user"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"

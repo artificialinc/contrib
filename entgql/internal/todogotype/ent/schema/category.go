@@ -18,8 +18,8 @@ import (
 	"math/big"
 	"math/rand"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/schema"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/schema/bigintgql"
+	"github.com/artificialinc/contrib/entgql/internal/todo/ent/schema"
+	"github.com/artificialinc/contrib/entgql/internal/todogotype/ent/schema/bigintgql"
 	"entgo.io/ent"
 	"entgo.io/ent/schema/field"
 )

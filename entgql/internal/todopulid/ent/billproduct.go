@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entgql/internal/todopulid/ent/billproduct"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/schema/pulid"
+	"github.com/artificialinc/contrib/entgql/internal/todopulid/ent/billproduct"
+	"github.com/artificialinc/contrib/entgql/internal/todopulid/ent/schema/pulid"
 	"entgo.io/ent/dialect/sql"
 )
 

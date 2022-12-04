@@ -19,10 +19,10 @@ package ent
 import (
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/schema/schematype"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/category"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/schema/pulid"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/todo"
+	"github.com/artificialinc/contrib/entgql/internal/todo/ent/schema/schematype"
+	"github.com/artificialinc/contrib/entgql/internal/todopulid/ent/category"
+	"github.com/artificialinc/contrib/entgql/internal/todopulid/ent/schema/pulid"
+	"github.com/artificialinc/contrib/entgql/internal/todopulid/ent/todo"
 )
 
 // CreateCategoryInput represents a mutation input for creating categories.

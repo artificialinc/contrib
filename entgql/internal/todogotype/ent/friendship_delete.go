@@ -20,8 +20,8 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entgql/internal/todogotype/ent/friendship"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/predicate"
+	"github.com/artificialinc/contrib/entgql/internal/todogotype/ent/friendship"
+	"github.com/artificialinc/contrib/entgql/internal/todogotype/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"

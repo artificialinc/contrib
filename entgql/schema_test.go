@@ -68,7 +68,7 @@ enum CategoryOrderField {
   DURATION
 }
 """CategoryStatus is enum for the field status"""
-enum CategoryStatus @goModel(model: "entgo.io/contrib/entgql/internal/todo/ent/category.Status") {
+enum CategoryStatus @goModel(model: "github.com/artificialinc/contrib/entgql/internal/todo/ent/category.Status") {
   ENABLED
   DISABLED
 }
@@ -164,7 +164,7 @@ enum TodoOrderField {
   TEXT
 }
 """TodoStatus is enum for the field status"""
-enum TodoStatus @goModel(model: "entgo.io/contrib/entgql/internal/todo/ent/todo.Status") {
+enum TodoStatus @goModel(model: "github.com/artificialinc/contrib/entgql/internal/todo/ent/todo.Status") {
   IN_PROGRESS
   COMPLETED
 }
@@ -345,7 +345,7 @@ enum CategoryOrderField {
   DURATION
 }
 """CategoryStatus is enum for the field status"""
-enum CategoryStatus @goModel(model: "entgo.io/contrib/entgql/internal/todo/ent/category.Status") {
+enum CategoryStatus @goModel(model: "github.com/artificialinc/contrib/entgql/internal/todo/ent/category.Status") {
   ENABLED
   DISABLED
 }
@@ -715,7 +715,7 @@ enum TodoOrderField {
   TEXT
 }
 """TodoStatus is enum for the field status"""
-enum TodoStatus @goModel(model: "entgo.io/contrib/entgql/internal/todo/ent/todo.Status") {
+enum TodoStatus @goModel(model: "github.com/artificialinc/contrib/entgql/internal/todo/ent/todo.Status") {
   IN_PROGRESS
   COMPLETED
 }

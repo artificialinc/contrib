@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"log"
 
-	"entgo.io/contrib/schemast/internal/loadtest/ent/migrate"
+	"github.com/artificialinc/contrib/schemast/internal/loadtest/ent/migrate"
 
-	"entgo.io/contrib/schemast/internal/loadtest/ent/message"
+	"github.com/artificialinc/contrib/schemast/internal/loadtest/ent/message"
 
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"

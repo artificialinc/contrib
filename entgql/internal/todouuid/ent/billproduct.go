@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entgql/internal/todouuid/ent/billproduct"
+	"github.com/artificialinc/contrib/entgql/internal/todouuid/ent/billproduct"
 	"entgo.io/ent/dialect/sql"
 	"github.com/google/uuid"
 )

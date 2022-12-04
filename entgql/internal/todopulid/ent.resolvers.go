@@ -21,9 +21,9 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/todo"
-	"entgo.io/contrib/entgql/internal/todopulid/ent"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/schema/pulid"
+	"github.com/artificialinc/contrib/entgql/internal/todo/ent/todo"
+	"github.com/artificialinc/contrib/entgql/internal/todopulid/ent"
+	"github.com/artificialinc/contrib/entgql/internal/todopulid/ent/schema/pulid"
 )
 
 func (r *categoryResolver) Todos(ctx context.Context, obj *ent.Category, after *ent.Cursor, first *int, before *ent.Cursor, last *int, orderBy []*ent.TodoOrder, where *ent.TodoWhereInput) (*ent.TodoConnection, error) {

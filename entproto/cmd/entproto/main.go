@@ -18,7 +18,7 @@ import (
 	"flag"
 	"log"
 
-	"entgo.io/contrib/entproto"
+	"github.com/artificialinc/contrib/entproto"
 	"entgo.io/ent/entc"
 	"entgo.io/ent/entc/gen"
 )

@@ -5,11 +5,11 @@ package enttest
 import (
 	"context"
 
-	"entgo.io/contrib/entoas/internal/oastypes"
+	"github.com/artificialinc/contrib/entoas/internal/oastypes"
 	// required by schema hooks.
-	_ "entgo.io/contrib/entoas/internal/oastypes/runtime"
+	_ "github.com/artificialinc/contrib/entoas/internal/oastypes/runtime"
 
-	"entgo.io/contrib/entoas/internal/oastypes/migrate"
+	"github.com/artificialinc/contrib/entoas/internal/oastypes/migrate"
 	"entgo.io/ent/dialect/sql/schema"
 )
 

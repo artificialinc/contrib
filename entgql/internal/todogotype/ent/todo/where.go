@@ -19,8 +19,8 @@ package todo
 import (
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todogotype/ent/predicate"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/schema/bigintgql"
+	"github.com/artificialinc/contrib/entgql/internal/todogotype/ent/predicate"
+	"github.com/artificialinc/contrib/entgql/internal/todogotype/ent/schema/bigintgql"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 )

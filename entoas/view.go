@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entoas/serialization"
+	"github.com/artificialinc/contrib/entoas/serialization"
 	"entgo.io/ent/entc/gen"
 )
 

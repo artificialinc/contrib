@@ -16,8 +16,8 @@ package entpb
 
 import (
 	"context"
-	"entgo.io/contrib/entproto"
-	"entgo.io/contrib/entproto/internal/todo/ent/enttest"
+	"github.com/artificialinc/contrib/entproto"
+	"github.com/artificialinc/contrib/entproto/internal/todo/ent/enttest"
 	"fmt"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc/codes"

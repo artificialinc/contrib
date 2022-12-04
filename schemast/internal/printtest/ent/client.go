@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"log"
 
-	"entgo.io/contrib/schemast/internal/printtest/ent/migrate"
+	"github.com/artificialinc/contrib/schemast/internal/printtest/ent/migrate"
 
-	"entgo.io/contrib/schemast/internal/printtest/ent/message"
-	"entgo.io/contrib/schemast/internal/printtest/ent/user"
+	"github.com/artificialinc/contrib/schemast/internal/printtest/ent/message"
+	"github.com/artificialinc/contrib/schemast/internal/printtest/ent/user"
 
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"

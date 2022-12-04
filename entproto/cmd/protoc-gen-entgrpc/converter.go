@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"strings"
 
-	"entgo.io/contrib/entproto"
+	"github.com/artificialinc/contrib/entproto"
 	"entgo.io/ent/entc/gen"
 	"entgo.io/ent/schema/field"
 	"github.com/jhump/protoreflect/desc"
@@ -106,7 +106,7 @@ func (g *serviceGenerator) newConverter(fld *entproto.FieldMappingDescriptor) (*
 	case efld.Type.Numeric():
 		out.ToEntConversion = efld.Type.String()
 	case efld.IsTime():
-		out.ToEntConstructor = protogen.GoImportPath("entgo.io/contrib/entproto/runtime").Ident("ExtractTime")
+		out.ToEntConstructor = protogen.GoImportPath("github.com/artificialinc/contrib/entproto/runtime").Ident("ExtractTime")
 	case efld.IsEnum():
 		enumName := fld.PbFieldDescriptor.GetEnumType().GetName()
 		method := fmt.Sprintf("toEnt%s_%s", g.EntType.Name, enumName)

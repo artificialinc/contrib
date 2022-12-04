@@ -20,7 +20,7 @@ package todofed
 import (
 	"context"
 
-	"entgo.io/contrib/entgql/internal/todofed/ent"
+	"github.com/artificialinc/contrib/entgql/internal/todofed/ent"
 )
 
 func (r *mutationResolver) CreateTodo(ctx context.Context, input TodoInput) (*ent.Todo, error) {

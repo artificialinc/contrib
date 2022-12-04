@@ -21,11 +21,11 @@ import (
 	"database/sql/driver"
 	"fmt"
 
-	"entgo.io/contrib/entgql/internal/todopulid/ent/category"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/group"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/schema/pulid"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/todo"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/user"
+	"github.com/artificialinc/contrib/entgql/internal/todopulid/ent/category"
+	"github.com/artificialinc/contrib/entgql/internal/todopulid/ent/group"
+	"github.com/artificialinc/contrib/entgql/internal/todopulid/ent/schema/pulid"
+	"github.com/artificialinc/contrib/entgql/internal/todopulid/ent/todo"
+	"github.com/artificialinc/contrib/entgql/internal/todopulid/ent/user"
 	"entgo.io/ent/dialect/sql"
 	"github.com/99designs/gqlgen/graphql"
 )

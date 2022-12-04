@@ -15,7 +15,7 @@
 package todofed
 
 import (
-	"entgo.io/contrib/entgql/internal/todofed/ent"
+	"github.com/artificialinc/contrib/entgql/internal/todofed/ent"
 	"github.com/99designs/gqlgen/graphql"
 )
 

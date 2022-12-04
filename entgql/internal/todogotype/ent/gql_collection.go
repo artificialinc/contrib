@@ -21,11 +21,11 @@ import (
 	"database/sql/driver"
 	"fmt"
 
-	"entgo.io/contrib/entgql/internal/todogotype/ent/category"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/group"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/schema/bigintgql"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/todo"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/user"
+	"github.com/artificialinc/contrib/entgql/internal/todogotype/ent/category"
+	"github.com/artificialinc/contrib/entgql/internal/todogotype/ent/group"
+	"github.com/artificialinc/contrib/entgql/internal/todogotype/ent/schema/bigintgql"
+	"github.com/artificialinc/contrib/entgql/internal/todogotype/ent/todo"
+	"github.com/artificialinc/contrib/entgql/internal/todogotype/ent/user"
 	"entgo.io/ent/dialect/sql"
 	"github.com/99designs/gqlgen/graphql"
 )

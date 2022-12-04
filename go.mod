@@ -1,4 +1,4 @@
-module entgo.io/contrib
+module github.com/artificialinc/contrib
 
 go 1.18
 

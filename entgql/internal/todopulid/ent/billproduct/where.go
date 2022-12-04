@@ -17,8 +17,8 @@
 package billproduct
 
 import (
-	"entgo.io/contrib/entgql/internal/todopulid/ent/predicate"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/schema/pulid"
+	"github.com/artificialinc/contrib/entgql/internal/todopulid/ent/predicate"
+	"github.com/artificialinc/contrib/entgql/internal/todopulid/ent/schema/pulid"
 	"entgo.io/ent/dialect/sql"
 )
 

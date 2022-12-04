@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entoas/internal/cycle/user"
+	"github.com/artificialinc/contrib/entoas/internal/cycle/user"
 	"entgo.io/ent/dialect/sql"
 )
 

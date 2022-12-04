@@ -17,7 +17,7 @@ package entoas
 import (
 	"encoding/json"
 
-	"entgo.io/contrib/entoas/serialization"
+	"github.com/artificialinc/contrib/entoas/serialization"
 	"entgo.io/ent/entc/gen"
 	"entgo.io/ent/schema"
 	"github.com/ogen-go/ogen"

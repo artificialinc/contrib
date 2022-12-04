@@ -21,8 +21,8 @@ import (
 	"context"
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todo/ent"
-	"entgo.io/contrib/entgql/internal/todo/ent/todo"
+	"github.com/artificialinc/contrib/entgql/internal/todo/ent"
+	"github.com/artificialinc/contrib/entgql/internal/todo/ent/todo"
 )
 
 func (r *mutationResolver) CreateTodo(ctx context.Context, input ent.CreateTodoInput) (*ent.Todo, error) {

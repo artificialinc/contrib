@@ -19,14 +19,14 @@ package ent
 import (
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todouuid/ent/billproduct"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/category"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/friendship"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/group"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/schema"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/todo"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/user"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/verysecret"
+	"github.com/artificialinc/contrib/entgql/internal/todouuid/ent/billproduct"
+	"github.com/artificialinc/contrib/entgql/internal/todouuid/ent/category"
+	"github.com/artificialinc/contrib/entgql/internal/todouuid/ent/friendship"
+	"github.com/artificialinc/contrib/entgql/internal/todouuid/ent/group"
+	"github.com/artificialinc/contrib/entgql/internal/todouuid/ent/schema"
+	"github.com/artificialinc/contrib/entgql/internal/todouuid/ent/todo"
+	"github.com/artificialinc/contrib/entgql/internal/todouuid/ent/user"
+	"github.com/artificialinc/contrib/entgql/internal/todouuid/ent/verysecret"
 	"github.com/google/uuid"
 )
 

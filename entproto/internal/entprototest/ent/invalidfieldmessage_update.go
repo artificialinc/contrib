@@ -7,9 +7,9 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/invalidfieldmessage"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/predicate"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/schema"
+	"github.com/artificialinc/contrib/entproto/internal/entprototest/ent/invalidfieldmessage"
+	"github.com/artificialinc/contrib/entproto/internal/entprototest/ent/predicate"
+	"github.com/artificialinc/contrib/entproto/internal/entprototest/ent/schema"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"

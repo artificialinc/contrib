@@ -20,7 +20,7 @@ import (
 	"go/token"
 	"testing"
 
-	"entgo.io/contrib/entproto"
+	"github.com/artificialinc/contrib/entproto"
 	"entgo.io/ent/dialect/entsql"
 	"entgo.io/ent/schema"
 	"github.com/stretchr/testify/require"

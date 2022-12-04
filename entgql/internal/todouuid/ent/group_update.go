@@ -21,9 +21,9 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entgql/internal/todouuid/ent/group"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/predicate"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/user"
+	"github.com/artificialinc/contrib/entgql/internal/todouuid/ent/group"
+	"github.com/artificialinc/contrib/entgql/internal/todouuid/ent/predicate"
+	"github.com/artificialinc/contrib/entgql/internal/todouuid/ent/user"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"

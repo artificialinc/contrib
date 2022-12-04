@@ -15,7 +15,7 @@
 package schema
 
 import (
-	"entgo.io/contrib/entoas"
+	"github.com/artificialinc/contrib/entoas"
 	"entgo.io/ent"
 	"entgo.io/ent/schema"
 	"entgo.io/ent/schema/edge"

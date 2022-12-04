@@ -21,15 +21,15 @@ import (
 	"fmt"
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/schema/schematype"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/billproduct"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/category"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/friendship"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/group"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/predicate"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/schema/pulid"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/todo"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/user"
+	"github.com/artificialinc/contrib/entgql/internal/todo/ent/schema/schematype"
+	"github.com/artificialinc/contrib/entgql/internal/todopulid/ent/billproduct"
+	"github.com/artificialinc/contrib/entgql/internal/todopulid/ent/category"
+	"github.com/artificialinc/contrib/entgql/internal/todopulid/ent/friendship"
+	"github.com/artificialinc/contrib/entgql/internal/todopulid/ent/group"
+	"github.com/artificialinc/contrib/entgql/internal/todopulid/ent/predicate"
+	"github.com/artificialinc/contrib/entgql/internal/todopulid/ent/schema/pulid"
+	"github.com/artificialinc/contrib/entgql/internal/todopulid/ent/todo"
+	"github.com/artificialinc/contrib/entgql/internal/todopulid/ent/user"
 )
 
 // BillProductWhereInput represents a where input for filtering BillProduct queries.

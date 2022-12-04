@@ -21,9 +21,9 @@ import (
 	"strings"
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todopulid/ent/friendship"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/schema/pulid"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/user"
+	"github.com/artificialinc/contrib/entgql/internal/todopulid/ent/friendship"
+	"github.com/artificialinc/contrib/entgql/internal/todopulid/ent/schema/pulid"
+	"github.com/artificialinc/contrib/entgql/internal/todopulid/ent/user"
 	"entgo.io/ent/dialect/sql"
 )
 

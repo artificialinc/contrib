@@ -3,7 +3,7 @@
 package attachment
 
 import (
-	"entgo.io/contrib/entproto/internal/todo/ent/predicate"
+	"github.com/artificialinc/contrib/entproto/internal/todo/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"github.com/google/uuid"

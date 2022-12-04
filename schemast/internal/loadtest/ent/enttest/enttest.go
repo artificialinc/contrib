@@ -5,11 +5,11 @@ package enttest
 import (
 	"context"
 
-	"entgo.io/contrib/schemast/internal/loadtest/ent"
+	"github.com/artificialinc/contrib/schemast/internal/loadtest/ent"
 	// required by schema hooks.
-	_ "entgo.io/contrib/schemast/internal/loadtest/ent/runtime"
+	_ "github.com/artificialinc/contrib/schemast/internal/loadtest/ent/runtime"
 
-	"entgo.io/contrib/schemast/internal/loadtest/ent/migrate"
+	"github.com/artificialinc/contrib/schemast/internal/loadtest/ent/migrate"
 	"entgo.io/ent/dialect/sql/schema"
 )
 

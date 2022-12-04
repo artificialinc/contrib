@@ -7,7 +7,7 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entoas/internal/cycle/user"
+	"github.com/artificialinc/contrib/entoas/internal/cycle/user"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"

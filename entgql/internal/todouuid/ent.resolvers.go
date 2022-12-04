@@ -21,8 +21,8 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/todo"
-	"entgo.io/contrib/entgql/internal/todouuid/ent"
+	"github.com/artificialinc/contrib/entgql/internal/todo/ent/todo"
+	"github.com/artificialinc/contrib/entgql/internal/todouuid/ent"
 	"github.com/google/uuid"
 )
 

@@ -15,7 +15,7 @@
 package schema
 
 import (
-	todoschema "entgo.io/contrib/entgql/internal/todo/ent/schema"
+	todoschema "github.com/artificialinc/contrib/entgql/internal/todo/ent/schema"
 	"entgo.io/ent"
 	"entgo.io/ent/schema/field"
 

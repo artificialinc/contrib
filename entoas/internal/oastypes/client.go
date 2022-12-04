@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"log"
 
-	"entgo.io/contrib/entoas/internal/oastypes/migrate"
+	"github.com/artificialinc/contrib/entoas/internal/oastypes/migrate"
 
-	"entgo.io/contrib/entoas/internal/oastypes/oastypes"
+	"github.com/artificialinc/contrib/entoas/internal/oastypes/oastypes"
 
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"

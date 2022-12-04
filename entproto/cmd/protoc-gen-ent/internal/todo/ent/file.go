@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/file"
+	"github.com/artificialinc/contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/file"
 	"entgo.io/ent/dialect/sql"
 )
 

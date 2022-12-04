@@ -17,7 +17,7 @@
 package user
 
 import (
-	"entgo.io/contrib/entgql/internal/todo/ent/predicate"
+	"github.com/artificialinc/contrib/entgql/internal/todo/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 )

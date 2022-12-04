@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"math"
 
-	"entgo.io/contrib/schemast/internal/mutatetest/ent/predicate"
-	"entgo.io/contrib/schemast/internal/mutatetest/ent/withfields"
+	"github.com/artificialinc/contrib/schemast/internal/mutatetest/ent/predicate"
+	"github.com/artificialinc/contrib/schemast/internal/mutatetest/ent/withfields"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
